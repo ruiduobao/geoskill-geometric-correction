@@ -2,8 +2,8 @@
   "skill": "geometric-correction",
   "skill_version": "1.0.0",
   "command": "geometric-correction --bbox 116 39 117 40 --synthetic --order 1 --quiet --output-dir ./_test_cli_order1",
-  "started_at": "2026-08-03T17:10:10.402656Z",
-  "finished_at": "2026-08-03T17:10:10.611718Z",
+  "started_at": "2026-11-02T15:09:13.908679Z",
+  "finished_at": "2026-11-02T15:09:14.443458Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -15,7 +15,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_order1\\corrected.tif",
+      "path": "./_test_cli_order1/corrected.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -32,7 +32,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_order1\\rms_report.json",
+      "path": "./_test_cli_order1/rms_report.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -48,15 +48,15 @@
     "source": "synthetic",
     "order": 1,
     "n_gcp": 16,
-    "rms_total": 0.0025778201429610243,
-    "rms_x": 0.0019512242880096186,
+    "rms_total": 0.0025778201429594,
+    "rms_x": 0.001951224288007473,
     "rms_y": 0.0016846009816383677,
     "n_bands": 3,
     "n_valid_gcp": 16,
     "reconstruction_rmse_vs_ideal": 0.0006617186591029167
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "geometric-correction"
   },
   "error": null
